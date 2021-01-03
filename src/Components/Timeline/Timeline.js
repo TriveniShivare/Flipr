@@ -2,9 +2,9 @@ import React from "react";
 import { Card, Row } from "react-bootstrap";
 import Destination from "../../assets/destination.svg";
 import Warehouse from "../../assets/warehouse.svg";
-import "./SideLeftTable.css";
+import "./Timeline.css";
 
-const SideLeftTable = (props) => {
+const Timeline = (props) => {
   return (
     <React.Fragment>
       <Card className="sideLeftTableCard">
@@ -28,4 +28,4 @@ const SideLeftTable = (props) => {
   );
 };
 
-export default SideLeftTable;
+export default Timeline;

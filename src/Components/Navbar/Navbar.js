@@ -3,9 +3,9 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import FliprLogo from "../../assets/logo.svg";
 import ProfileLogo from "../../assets/profile.svg";
-import "./Header.css";
+import "./Navbar.css";
 
-export default function Header() {
+export default function NavBar() {
   return (
     <React.Fragment>
       <Navbar className="Nav" expand="lg">

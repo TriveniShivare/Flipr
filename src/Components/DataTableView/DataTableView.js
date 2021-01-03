@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Table from "react-bootstrap/Table";
-import SideLeftTable from "../SideLeftTable/SideLeftTable";
-import "./SideRightTable.css";
+import Timeline from "../Timeline/Timeline";
+import "./DataTableView.css";
 
-const SideRightTable = (props) => {
+const DataTableView = (props) => {
   const [tempData, setTempData] = useState([]);
   const [selectedItemIndex, setSelectedItemIndex] = useState(0);
   const handlePass = (awbno) => {
@@ -53,9 +53,9 @@ const SideRightTable = (props) => {
             ))}
         </tbody>
       </Table>
-      <SideLeftTable tempData={tempData[0]} />
+      <Timeline tempData={tempData[0]} />
     </React.Fragment>
   );
 };
 
-export default SideRightTable;
+export default DataTableView;

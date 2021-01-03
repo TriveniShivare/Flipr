@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
-import Counter from "./Components/Counter/Counter";
-import Header from "./Components/Header/Header";
+import StateCounter from "./Components/StateCounter/StateCounter";
+import Navbar from "./Components/Navbar/Navbar";
 
 
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <Counter />
+      <Navbar />
+      <StateCounter />
     </React.Fragment>
   );
 }

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import axios from "axios";
-import "./Counter.css";
-import SideRightTable from "../SideRightTable/SideRightTable";
+import "./StateCounter.css";
+import DataTableView from "../DataTableView/DataTableView";
 
-class Counter extends Component {
+class StateCounter extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -153,10 +153,10 @@ class Counter extends Component {
             <span className="counterCount">{NFI}</span>
           </div>
         </div>
-        <SideRightTable data={this.state.filteredData} />
+        <DataTableView data={this.state.filteredData} />
       </React.Fragment>
     );
   }
 }
 
-export default Counter;
+export default StateCounter;
